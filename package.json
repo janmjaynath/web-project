@@ -1,6 +1,7 @@
 {
 
   "engines": {
+
     "node": "20.15.1"
 
   },
@@ -25,7 +26,7 @@
 
   "dependencies": {
 
-    "cloudinary": "^2.4.0",
+    "cloudinary": "^1.21.0",
 
     "connect-flash": "^0.1.1",
 
@@ -61,9 +62,9 @@
 
   },
 
-  "devDependencies": {},
+  "description": "��#\u0000 \u0000m\u0000u\u0000n\u0000n\u0000a\u0000\r\u0000 \u0000",
 
-  "description": ""
+  "devDependencies": {}
 
 }
 
