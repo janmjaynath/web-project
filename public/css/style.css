@@ -1,0 +1,156 @@
+body{
+  font-family: 'plus Jakarta Sans',sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-width: 100vh;
+}
+
+.container{
+  flex: 1;
+}
+
+.navbar{
+  height: 4rem;
+  background-color: aliceblue;
+}
+
+.fa-compass{
+  color: red;
+  font-size: 2rem;
+}
+
+.nav-link{
+  color: #222222 !important;
+}
+/* footer */
+
+.f-info-links a{
+  text-decoration: none;
+  color: #222222;
+}
+.linka1:hover{
+  color: black;
+  text-decoration: underline;
+  
+}
+.linka2:hover{
+  color: black;
+  font-weight: 300rem;
+  text-decoration: underline;
+}
+.linka3:hover{
+  color: black;
+  text-decoration: underline;
+}
+
+.f-info-links,.f-info-socials,.f-info-brand{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.f-info-socials i{
+  margin-right: 1rem;
+  font-size: 1.5rem;
+}
+
+.f-info-links a :hover{
+  text-decoration: underline;
+}
+
+.f-info{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  height: 8rem;
+  flex-wrap: wrap;
+  background-color: aliceblue;
+  align-items: space-evenly;
+}
+
+/* cards */
+.listing-card{
+  border: none !important;
+  margin-bottom: 2rem;
+}
+
+.card-img-top{
+  border-radius: 1rem !important;
+  width: 100% !important;
+  object-fit: cover !important;
+}
+
+.card-body{
+  padding: 0 !important;
+
+}
+
+.card-text p {
+  font-weight: 400;
+}
+
+.listing-links{
+  text-decoration: none;
+}
+
+/* card-effect */
+.card-img-overlay{
+  opacity: 0;
+}
+
+.card-img-overlay :hover{
+  opacity: 0.5rem;
+  background-color: white;
+}
+
+/* new page */
+.btn{
+  background-color: red !important;
+  border: none !important;
+  color: white !important;
+}
+
+/* show page */
+.card-img-top{
+  height: 500px;
+  
+}
+
+.Details{
+  font-size: 25px;
+}
+
+.show-img{
+ height: 400px;
+ width: 100px;
+}
+
+.edit-del{
+  display: flex;
+  margin-left: 20px;
+}
+
+.del{
+  margin-left: 2rem;
+  background-color: #222222 !important;
+  color: aliceblue !important;
+}
+.review{
+  margin-left: 30px;
+}
+
+.delRev{
+  background-color: #222222 !important;
+  color: aliceblue !important;
+  border-radius: 10px;
+}
+
+.image{
+  width: 18rem !important;
+}
+
+.show-img{
+  width: 500px !important;
+  height: 300px !important;
+}
